@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0
+}
+
+body{
+	background-color: #000;
+	overflow-x: hidden;
+}
+
+html, body{
+	width: 100%;
+	height: 100%;
+}
+
+img.pilar{
+    position: absolute;
+    width: 293px;
+    height: 667px;
+}
+
+img.pilar-left{
+	left: -100px;
+	top: -12px;
+}
+img.pilar-right{
+	right: -100px
+}
+
+
+div.container{
+	width: 980px;
+	margin: 0 auto;
+	background-color: #000;
+	padding-bottom: 60px
+}
+div.container header{
+	padding: 10px 47px
+}
+
+div.container header img{
+	width: 894px;
+	height: 234px;
+}
+
+
+div.container nav{
+	width: 100%;
+    overflow: visible;
+    position: relative;
+    background: rgba(0, 0, 0, 1) url(http://static.parastorage.com/services/skins/2.1229.63/images/wysiwyg/core/themes/base/shiny1button_bg.png) center center repeat-x;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+div.container nav a{
+	background: transparent url(http://static.parastorage.com/services/skins/2.1229.63/images/wysiwyg/core/themes/base/shiny1button_bg.png) center center repeat-x;
+	display: inline-block;
+	width: calc(16% - 20px);
+    border-left: 1px solid rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0, 1);
+    transition: background-color 0.4s ease 0s;
+	padding: 20px 10px;
+	font: normal normal normal 14px/1.1em 'arial black',arial-w01-black,arial-w02-black,'arial-w10 black',sans-serif;
+    color: #ED1C24;
+    text-transform: uppercase;
+	text-decoration: none;
+	transition: all 400ms ease
+}
+div.container nav a:hover{
+	color: grey;
+	background-color: rgba(84, 84, 84, 1)
+}
+nav a.left-menu{
+    border-radius: 10px 10px 0 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+nav a.right-menu{
+    border-radius: 0px 10px 10px 0px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+
+
+div.escudos{
+	text-align: center;
+	width: 100%;
+}
+div.escudos .row .escudo-item{
+	margin: 20px;
+	display: inline-table;
+}
+div.escudos .row .escudo-item img{
+
+}
+
+div.escudos .row .escudo-item img.escudo-pmerj{
+	margin-bottom: 40px;
+}
